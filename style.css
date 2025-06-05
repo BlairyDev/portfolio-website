@@ -375,14 +375,14 @@ h4 {
 .tools-container {
     display: flex;
     gap: 10px;
-    margin: 0.5em;
+    /* margin: 0.5em; */
     
 }
 
 .tool-name {
     font-size: 1em;
     background-color: #171e32;
-    padding: 0.3em 1em;
+    padding: 0.2em 1em;
     border-radius: 20px;
 }
 
@@ -494,13 +494,19 @@ h4 {
     .projects-container {
         display: flex;
         gap: 30px;
-
+        max-width: 1070px;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .project-img {
-        max-width: 300px;
+        max-width: 287px;
+        max-height: 190px;
     }
-
+    
+    .project-col {
+        max-width: 320px;
+    }
 
 
 }
